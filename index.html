@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" type="text/css">
+  
+       
+        <title>lek. med. Alicja Błońska</title>
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120612957-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-120612957-1');
+        </script>
+    
+    
+    </head>
+    
+    <body>
+        <header id="start">
+            <nav>
+                <div class="row">
+                <img src="resources/img/logo-snake-white.png" alt="Lek. Med. Alicja Błońska" class="logo">
+
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#start">Start</a></li>
+                        <li><a href="#moreinfo">O mnie</a></li>
+                        <li><a href="#moreinfo">Gabinet</a></li>
+                        <li><a href="#contact">Umow wizytę</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="medical-text-box">
+                <h1>Diabetolog w Głogowie<br> lek. med. Alicja Błońska</h1>
+                <a class="btn btn-full js--scroll-to-contact" href="#contact">Kontakt</a>
+                <a class="btn btn-ghost js--scroll-to-info" href="#moreinfo">Więcej informacji</a>
+            
+            </div>
+        
+        </header>
+        
+        <section class="section-features js--section-features" id="moreinfo">
+            <div class="row">
+                <h2>Lek. Med. Alicja Błońska</h2>
+                <p class="long-copy">
+                Jestem lekarzem od 2003 roku. Pracowałam w ZOZ Głogów na Oddziale Chorób Wewnętrznych, gdzie w 2010 roku uzyskałam specjalizację z chorób wewnętrznych. Od 2012 roku pracuję w MCZ Lubin na Oddziale Diabetologii, a w 2013 roku uzyskałam tytuł Specjalisty Diabetologa. W 2017 roku rozpoczęłam też specjalizację z endokrynologii w Dolnośląskim Szpitalu Specjalistycznym im. T. Marciciaka we Wrocławiu. 
+                </p>
+            </div>
+            
+            <div class="row">
+                
+                <div class="col span-1-of-4 box">
+                    <i class="ion-person icon-big"></i>
+                    <h3>OFERUJĘ PACJENTOM</h3>
+                    <p>
+                            - udzielanie porad diabetologicznych oraz leczenie cukrzycy typu 1, typu 2 oraz typu 3 (tzw. wtórna)<br>
+                            - diagnostykę i leczenie cukrzycy ciężarnych<br>
+                            - leczenie otyłości oraz zaburzeń metabolicznych<br>
+                            - udzielanie porad internistycznych
+                            - udzielanie porad endokrynologicznych
+                    </p>
+                </div>
+                
+                     <div class="col span-1-of-4 box">
+                         <i class="ion-ios-pulse-strong icon-big"></i>
+                    <h3>Wizyta</h3>
+                         
+                    <p>
+                             Na wizytę proszę przygotować:<br>
+                        - dokumenty dotyczace stanu zdrowia np. karty wypisowe ze szpitala, badania laboratoryjne etc.<br>
+                        - dzienniczek samokontroli lub glukometr z pomiarami<br>
+                        - leki, które pobiera pacjent
+                    </p>
+                </div>
+                
+                     <div class="col span-1-of-4 box" id="book">
+                          <i class="ion-ios-pulse-strong icon-big"></i>
+                    <h3>Rejestracja</h3>
+                    <p>
+                    Zapraszam w czwartki po godzinie 15 po uprzedniej rejestracji telefonicznej pod nr. 509072014 
+                    </p>
+                </div>
+                
+                     <div class="col span-1-of-4 box">
+                          <i class="ion-android-call icon-big"></i>
+                    <h3>Adres</h3>
+                    <p>
+                        Gabinety Lekarskie<br> "Na Starówce"<br>
+                        ul. Długa 88<br>
+                        67-200 Głogów<br>
+    
+                    </p>
+                      <div id="map"></div>
+                        <script>
+                              function initMap() {
+                                  var uluru = {lat: 51.664447, lng: 16.095927};
+                                  var map = new google.maps.Map(document.getElementById('map'), {
+                                      zoom: 15,
+                                      center: uluru
+                                    });
+                                  marker.setVisible(true);
+                          }
+                        </script>
+                         
+                         
+                                        </div>
+                                    </div>
+                                </section>
+          <section class="section-contact" id="contact">
+    <div class="row">
+      <h2>Kontakt</h2>
+                    <p>
+                        Przyjęcia w czwartki po godzinie 15 po uprzedniej rejestracji telefonicznej pod nr. 509 072 014 lub po potwiedzonej rejestracji poprzez formularz poniżej. Gabinet znajduje się w przychodnii "Gabinety Lekarskie na Starowce" ul. Długa 88 Głogow. Proszę o przybycie 10 minut przed wizytą. <br>
+                    
+                    </p>
+          
+    </div>
+        
+  </section>
+
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                            <script src="vendors/js/jquery.waypoints.min.js"></script>
+                            <script src="resources/js/script.js"></script>                  
+                            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrK1UywFdjIAtHmX7QPOJKdYp7nv5xKqY&callback=initMap">
+                            </script>  
+        
+                           
+   
+    
+    </body>
+    <footer>
+        <div class="row">
+      <p class="footer">
+        Website by Maciej Jankowski 2018
+      </p>
+    </div>
+    </footer>
+
+
+</html>
